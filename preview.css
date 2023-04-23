@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+   background-color: hsl(30, 38%, 92%);
+   /* max-width: 1440px; */
+}
+
+main{
+    /* border: 1px solid red; */
+    width: 605px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    margin:auto;
+    margin-top: 130px;
+}
+.productImage{
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+}
+header{
+    /* padding-left: 25px; */
+    /* border: 1px solid yellow; */
+    width: 60%;
+    padding-left: 25px;
+}
+h3{
+    /* border: 1px solid yellow; */
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 7px;
+    margin-top: 35px;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    /* border: 1px solid yellow; */
+    width: 85%;
+    line-height: 38px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid yellow; */
+    line-height: 22px;
+    width: 90%;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+div{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid green; */
+    margin-top: 15px;
+}
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    /* border: 1px solid yellow; */
+    color: hsl(158, 36%, 37%);
+    margin:0px
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+    font-size: 13px;
+   ;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 27%);
+}
+.icon-cart{
+    margin-left: -190px;
+    margin-bottom: -3px;
+}
+
+.mobileProductImage{
+    display: none;
+}
+
+span{
+    margin-left: 185px;
+}
+.icon-cart{
+    padding-right: 9px;
+}
+/* .button,
+.icon-cart{
+    align-items: center;
+} */
+
+ 
+ @media only screen and (max-width: 550px) {
+    main {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 100px;
+    }
+
+    .productImage{
+        display: none;
+    }
+
+    .mobileProductImage{
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+    main{
+        margin-top: 35px;
+    }
+    h1{
+        width: 130%;
+        margin-top: 0px;
+    }
+    p{
+        line-height: 27px;
+        font-size: 17px;
+        width: 145%;
+        margin-top: ;
+    }
+    h3{
+        margin-top: 25px;
+        letter-spacing: 7px;
+        font-size: 15px;
+    }
+    
+    h2{
+        font-size: 43px;
+    }
+    button{
+        width: 145%;
+        height: 51px;
+        border-radius: 8px;justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    span{
+        margin-left: 190px;
+    }
+   }
+
+    
+    
+    
+    
+    
+    
